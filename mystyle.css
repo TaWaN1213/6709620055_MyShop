@@ -67,3 +67,45 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #b5000d; /* สีแดงเข้มกว่า header นิดหน่อย */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #ff3333;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.6em;
+    color: #e60012;
+    border-bottom: 3px solid #e60012;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+#category1, #category2 {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
