@@ -74,7 +74,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background: #b5000d; /* สีแดงเข้มกว่า header นิดหน่อย */
+    background: #b5000d;
 }
 
 nav ul li {
